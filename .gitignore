@@ -15,6 +15,10 @@
 /junit
 /turbulence
 
+# ignore conf
+/config/database.yml
+/config/secrets.yml
+
 # Ignore generated assets
 /public/assets
 /public/documents

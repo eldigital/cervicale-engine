@@ -1,10 +1,9 @@
 source 'https://rubygems.org'
-ruby '2.3.5'
 
-gem 'easy-app',   git: 'https://github.com/jbox-web/easy-app.git'
-gem 'easy-crud',  git: 'https://github.com/jbox-web/easy-crud.git'
-gem 'easy-dci',   git: 'https://github.com/jbox-web/easy-dci.git'
-gem 'actionform', git: 'https://github.com/jbox-web/actionform.git', require: 'action_form'
+gem 'easy-app',   git: 'git@github.com:jbox-web/easy-app.git'
+gem 'easy-crud',  git: 'git@github.com:jbox-web/easy-crud.git'
+gem 'easy-dci',   git: 'git@github.com:jbox-web/easy-dci.git'
+gem 'actionform', git: 'git@github.com:jbox-web/actionform.git', require: 'action_form'
 
 # Bundler
 gem 'bundler', '>= 1.8.4'
